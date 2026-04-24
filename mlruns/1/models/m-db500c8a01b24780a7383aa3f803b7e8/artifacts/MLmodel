@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/Asus/OneDrive/Desktop/practice6-ML/mlruns/1/models/m-db500c8a01b24780a7383aa3f803b7e8/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 3.8.1
+model_id: m-db500c8a01b24780a7383aa3f803b7e8
+model_size_bytes: 824
+model_uuid: m-db500c8a01b24780a7383aa3f803b7e8
+prompts: null
+run_id: 1d4c9932fdd54309bbf9c358175ed3ab
+utc_time_created: '2026-04-24 14:18:12.293035'
