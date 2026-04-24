@@ -1,2 +1,8 @@
 __pycache__/
 main.cpython-312.pyc
+
+mlruns/
+mlflow.db
+
+.venv/
+env/
